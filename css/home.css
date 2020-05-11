@@ -1912,6 +1912,10 @@ html[dir="ltr"] .nav-bar .icons button:last-child {
   margin: 0;
 }
 
+html[dir="ltr"] .nav-bar .icons .cart-icon .counter {
+  right: 27px;
+}
+
 html[dir="ltr"] .search-container .search::after {
   left: unset;
   right: 20px;
@@ -1927,6 +1931,9 @@ html[dir="ltr"] .footer ul i {
 }
 
 @media (max-width: 992px) {
+  html[dir="ltr"] .nav-bar .icons .cart-icon .counter {
+    right: -7px;
+  }
   html[dir="ltr"] .fixed-menu .menu {
     right: unset;
     left: -280px;
@@ -1960,4 +1967,3 @@ html[dir="ltr"] .footer ul i {
   }
 }
 
-/*# sourceMappingURL=home.css.map */
