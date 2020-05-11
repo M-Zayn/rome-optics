@@ -1664,6 +1664,14 @@ button {
   .cats .cat {
     margin: 5px 0;
   }
+  .card .card-body {
+    text-align: center;
+  }
+  .card .card-body .price {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .new-arrival .new-arrival-header {
     font-size: 24px;
   }
@@ -1904,11 +1912,6 @@ html[dir="ltr"] .nav-bar .icons button:last-child {
   margin: 0;
 }
 
-html[dir="ltr"] .nav-bar .icons .cart-icon .counter {
-  right: unset;
-  left: -7px;
-}
-
 html[dir="ltr"] .search-container .search::after {
   left: unset;
   right: 20px;
@@ -1948,6 +1951,12 @@ html[dir="ltr"] .footer ul i {
   }
   html[dir="ltr"] .footer .list-header.active::after {
     content: "";
+  }
+}
+
+@media (max-width: 480px) {
+  html[dir="ltr"] .news p {
+    font-size: 18px;
   }
 }
 
